@@ -1,0 +1,83 @@
+<!-- ¡¡¡Aquí vamos!!!-->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="Raúl Enrique Marval">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Raúl E. Marval / Codigo Pa' Lante</title>
+	<link rel="icon" type="image/x.icon" href="resources/favicon/favicon-96x96.png">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<header>
+		<nav>
+			<video width="100" height="70" autoplay loop muted>
+				<source src="resources/video/Raúl Marval web developer.mp4" type="video/mp4">
+			</video>
+			<a href="#inicio">Inicio</a>
+			<a href="#contacto">Contacto</a>
+		</nav>
+	</header>
+	<main>
+		<div>
+			<!-- <section></section> permite el scrolling con la referencia <a href="#inicio"> -->
+			<section id="inicio">
+				<img src="resources/remp/remp.jpg" alt="remp" width="100" height="100">
+		</div>
+		<h2>¡Hola!
+			<br>Soy Raúl
+		</h2>
+		<article>
+			Desarrollador web con formación en Eidos/Accenture, el Centro de e-Learning UTN FRBA y titulado como
+			Ingeniero Industrial por la Universidad Nacional Abierta de Venezuela. Apasionado por el ámbito IT, poseo
+			conocimientos crecientes en programación (especialmente Javascript) y una actitud de aprendizaje constante. Destaco por mi pensamiento
+			crítico, habilidades para la resolución de problemas y mi capacidad para trabajar en equipo. Me entusiasman
+			los desafíos laborales, especialmente en nuevas herramientas de testing de software, automatización de
+			pruebas, Power BI y desarrollo frontend - backend, entre otros.
+		</article>
+		</section>
+		<div>
+			<a href="resources/CV/CVRaulMarval.pdf" target="_blank">Descarga mi CV</a>
+			<!-- También, se puede cambiar «target="_blank"» por «download» para descargar el documento, pero referí la visualización en una pestaña emergente 😎-->
+		</div>
+		<!-- <section></section> permite el scrolling con la referencia <a href="#contacto"> -->
+		<section id="contacto">
+			<h1>Contacto</h1>
+			<!-- Acá escribo un formulario sencillo-->
+			<form action="enviar.php" method="post">
+				<label for="nombre">Nombre:</label>
+				<input type="text" name="nombre" required>
+				<label for="email">Email:</label>
+				<input type="email" name="email" required>
+				<label for="mensaje">Mensaje:</label>
+				<textarea name="mensaje" required></textarea>
+				<input type="submit" value="Enviar">
+			</form>
+		</section>
+		<br>
+		<nav>
+			<a href="https://www.linkedin.com/in/raulemarval/" target="_blank">
+				<img src="resources/rrss/linkedin.png" alt="LinkedIn" width="25" height="25">
+			</a>
+			<a href="https://github.com/raulemarval" target="_blank">
+				<img src="resources/rrss/github.png" alt="github" width="25" height="25">
+			</a>
+			<a href="https://mail.google.com/" target="_blank">
+				<img src="resources/rrss/mail.png" alt="Email" width="25" height="25">
+			</a>
+		</nav>
+	</main>
+	<br>
+	<footer>
+		<p>Teléfono: 5491132298694</p>
+		<p>Buenos Aires, Argentina</p>
+		<p>Todos los derechos reservados &copy; 2023 / Raúl Enrique Marval</p>
+	</footer>
+	<script src="/main.js"></script>
+</body>
+
+</html>
